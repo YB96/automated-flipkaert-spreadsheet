@@ -68,10 +68,8 @@ def all_info(num_of_page):
     for i in range(1, num_of_page+1):
         all_df.append(for_all_pages(page_no=i))
         # Outside the loop variable you can directly merge the df and return it in the same line.
-    return pd.concat(all_df)
+        merge = pd.concat(all_df)
+        csv = merge.to_csv('all info.csv',index=None)
+    return csv
 
 
-final = final = all_info(4)  
-#4 can be channged to the desired number to get that number of pages to scrape.
-
-csv = final.to_csv('final info.csv',index=False)
