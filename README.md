@@ -3,3 +3,4 @@ Flipkart is one such eCommerce company that promotes online sales in India. It i
 
 We will be creating a csv file which will contain all the `iPhones` data present in the flipkart and sending it through an automated mail using SMTP library. The web page we are going to scrape is this [page](https://www.flipkart.com/mobiles/pr?sid=tyy%2C4io&otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DAPPLE&page=) 
 ![](https://imgur.com/a/hLFcWJT)
+In the csv file we will adding `Mobile names`,`Prices`,`Ratings` and `Description`
